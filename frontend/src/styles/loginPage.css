@@ -1,0 +1,122 @@
+.login-scope {
+    width: 100%;
+  height: 100vh;
+}
+
+/* Page Layout */
+.login-scope .login-page {
+  display: flex;
+  height: 100%;
+}
+
+/* Left Section (CENTERED) */
+.login-scope .login-left {
+  width: 50%;
+  background-color: #fdeeee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Box */
+.login-scope .login-box {
+  width: 380px;
+}
+
+/* Brand */
+.login-scope .brand-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Headings */
+.login-scope h2 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.login-scope .subtitle {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+.login-scope input[type="email"],
+.login-scope input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.login-scope input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+/* Error Message */
+.login-scope .error-message {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fee;
+  color: #c33;
+  border-radius: 6px;
+  border: 1px solid #fcc;
+  font-size: 14px;
+}
+
+/* Options */
+.login-scope .login-options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.login-scope .forgot {
+  color: #7b5cff;
+  text-decoration: none;
+}
+
+/* Button */
+.login-scope .login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #7b5cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: opacity 0.2s;
+}
+
+.login-scope .login-btn:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.login-scope .login-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Signup Text */
+.login-scope .signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-scope .signup-text a {
+  color: #7b5cff;
+  text-decoration: none;
+}
+
+/* Right Section */
+.login-scope .login-right {
+  width: 50%;
+}

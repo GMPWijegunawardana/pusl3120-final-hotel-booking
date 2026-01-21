@@ -1,0 +1,81 @@
+.forgot-scope {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Page Layout */
+.forgot-scope .forgot-page {
+  display: flex;
+  height: 100%;
+}
+
+/* Left Section (CENTERED) */
+.forgot-scope .forgot-left {
+  width: 50%;
+  background-color: #fdeeee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Box */
+.forgot-scope .forgot-box {
+  width: 380px;
+}
+
+/* Brand */
+.forgot-scope .brand-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Headings */
+.forgot-scope h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.forgot-scope .subtitle {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+/* Input */
+.forgot-scope input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* Button */
+.forgot-scope .reset-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #7b5cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Back Text */
+.forgot-scope .back-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.forgot-scope .back-text a {
+  color: #7b5cff;
+  text-decoration: none;
+}
+
+/* Right Section */
+.forgot-scope .forgot-right {
+  width: 50%;
+}

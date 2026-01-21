@@ -1,0 +1,120 @@
+.register-scope {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Page Layout */
+.register-scope .register-page {
+  display: flex;
+  height: 100%;
+}
+
+/* Left Section (CENTERED) */
+.register-scope .register-left {
+  width: 50%;
+  background-color: #fdeeee;
+
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+}
+
+/* Register Box */
+.register-scope .register-box {
+  width: 380px;
+}
+
+/* Brand */
+.register-scope .brand-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Headings */
+.register-scope h2 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.register-scope .subtitle {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+.register-scope input[type="text"],
+.register-scope input[type="tel"],
+.register-scope input[type="email"],
+.register-scope input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.register-scope input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+/* Error Message */
+.register-scope .error-message {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fee;
+  color: #c33;
+  border-radius: 6px;
+  border: 1px solid #fcc;
+  font-size: 14px;
+}
+
+/* Terms */
+.register-scope .terms-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.register-scope .register-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #7b5cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: opacity 0.2s;
+}
+
+.register-scope .register-btn:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.register-scope .register-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Login Text */
+.register-scope .login-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-scope .login-text a {
+  color: #7b5cff;
+  text-decoration: none;
+}
+
+/* Right Section*/
+.register-scope .register-right {
+  width: 50%;
+}
