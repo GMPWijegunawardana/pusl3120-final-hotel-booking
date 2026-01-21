@@ -27,7 +27,7 @@ jobs:
         working-directory: ./backend
         run: npm test || echo "No tests found"
 
-      # Frontend
+     
       - name: Install frontend dependencies
         working-directory: ./frontend
         run: npm install
